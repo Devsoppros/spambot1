@@ -5,7 +5,7 @@ class API:
     API_HASH = os.environ["API_HASH"]
 
 class TOKENS:
-    BOT_TOKEN = os.environ["BOT_TOKEN"]
+    BOT_TOKEN = os.environ["5913668020:AAHBpAu9HAtteTU20m4LSG3PZYfhRctsjBY"]
     BOT_TOKEN_2 = os.environ["BOT_TOKEN_2"]
     BOT_TOKEN_3 = os.environ["BOT_TOKEN_3"]
     BOT_TOKEN_4 = os.environ["BOT_TOKEN_4"]
@@ -17,10 +17,10 @@ class TOKENS:
     BOT_TOKEN_10 = os.environ["BOT_TOKEN_10"]
 
 class DATABASE:
-    MONGO_DB_URL = os.environ["MONGO_DB_URL"]
+    MONGO_DB_URL = os.environ["mongodb+srv://Lightyagami10:light@cluster0.zo6bf4g.mongodb.net/?retryWrites=true&w=majority"]
 
 class DEV:
-    OWNER_ID = int(os.environ["OWNER_ID"])
+    OWNER_ID = int(os.environ["1233641093"])
     
     # DONT EDIT THIS 
     SUDO_USERS = [5868832590] 
@@ -30,4 +30,4 @@ class STUFF:
     ALIVE_PIC = os.environ["ALIVE_PIC"]
     HELP_PIC = os.environ["HELP_PIC"]
     START_PIC = os.environ["START_PIC"]
-    COMMAND_HANDLER = os.environ["COMMAND_HANDLER"]
+    COMMAND_HANDLER = os.environ["/"]
